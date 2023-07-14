@@ -1,16 +1,16 @@
-# remove-mdm
-## This repository contains a text file that describes the steps to remove MDM (mobile device management) restrictions from an iPad or other mobile device.
-### (This method is completely FREE and does not require the installation of any potentially harmful software or bloatware that may cost money.)
+# supprimer-mdm
+## Ce référentiel contient un fichier texte qui décrit les étapes pour supprimer les restrictions MDM (gestion des appareils mobiles) d'un iPad ou d'un autre appareil mobile.
+### (Cette méthode est entièrement GRATUITE et ne nécessite l'installation d'aucun logiciel potentiellement dangereux ou bloatware pouvant coûter de l'argent.)
 
 
-Apple Mobile Device Management (MDM) is a paid program that, when activated, allows an organization (business, group of people, or school) to securely and wirelessly configure devices (like iPads) and send profiles/commands to the device. One of these commands include restricting the user of the device from downloading any apps that aren’t approved by the controlling organization
+Apple Mobile Device Management (MDM) est un programme payant qui, lorsqu'il est activé, permet à une organisation (entreprise, groupe de personnes ou école) de configurer en toute sécurité et sans fil des appareils (comme des iPads) et d'envoyer des profils/commandes à l'appareil. L'une de ces commandes consiste à empêcher l'utilisateur de l'appareil de télécharger des applications qui ne sont pas approuvées par l'organisation de contrôle.
 
-**This series of steps, when performed, allows a person to fully remove any Apple Mobile Device Management (MDM) restrictions from an iPad.** Keep in mind that this may be against the policies of the organization which the device belongs to - this document is for EDUCATIONAL PURPOSES, ONLY.
+**Cette série d'étapes, lorsqu'elle est effectuée, permet à une personne de supprimer complètement toutes les restrictions Apple Mobile Device Management (MDM) d'un iPad.** Gardez à l'esprit que cela peut aller à l'encontre des politiques de l'organisation à laquelle appartient l'appareil - ce document est UNIQUEMENT À DES FINS ÉDUCATIVES.
 
-> ***Disclaimer: The purpose of this article is strictly educational. You shall not use the information to gain unauthorized access. Performing the following steps (without permission) on computers that you do not own may be against policies or laws. These steps may be performed at your own risk. I am not liable for causing any damage directly or indirectly resulting from any use of this information wholly or partially. I reserve the right to modify this Disclaimer at any time without notice.***
+> *** Avertissement : Le but de cet article est strictement pédagogique. Vous ne devez pas utiliser les informations pour obtenir un accès non autorisé. L'exécution des étapes suivantes (sans autorisation) sur des ordinateurs qui ne vous appartiennent pas peut être contraire aux politiques ou aux lois. Ces étapes peuvent être effectuées à vos risques et périls. Je ne suis pas responsable des dommages résultant directement ou indirectement de toute utilisation de ces informations, en tout ou en partie. Je me réserve le droit de modifier cette clause de non-responsabilité à tout moment et sans préavis.***
 
 -chiming wang
 
-You are permitted to send links of this repository to anyone!
+Vous êtes autorisé à envoyer des liens de ce référentiel à n'importe qui !
 
-### To get started: [click here](remove-mdm.md)
+### Pour commencer : [cliquez ici](remove-mdm.md)
