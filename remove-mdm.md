@@ -1,42 +1,39 @@
-# [Please see the README file before viewing the information in this file.](README.md)
+# [Lis le README avant de commencer à lire ce document](README.md)
+## Voici les étapes simples pour contourner les restrictions MDM sur ton iPad.
 
-## Below are the necessary steps that allow a user to bypass any MDM restrictions on an iPad.
+### 1. Commence par télécharger les applications nécessaires sur ton ordinateur Windows 10 :
+  - Télécharge l'application iBackupBot sur ton ordinateur Windows 10.
+  - Télécharge l'application Apple iTunes sur ton PC Windows 10 (cela permettra à ton ordinateur d'accéder aux fichiers de ton iPad).
+  - Connecte ton iPad à l'ordinateur à l'aide d'un câble USB Lightning.
+  - Lorsque ton iPad te demande si tu fais confiance à l'ordinateur, clique sur "Oui".
+  - Dans les paramètres de ton iPad, vas dans "Affichage et luminosité" et configure l'extinction de l'écran sur "Jamais".
+  - Si nécessaire, enlève le mot de passe de ton iPad.
+  
+### 2. Ensuite, sauvegarde tous tes fichiers de l'iPad :
+  - Fais une sauvegarde depuis iBackupBot de tes fichiers.
+  - Copie-colle la une fois.
+    - L'une des sauvegardes sera modifiée.
+    - L'autre sauvegarde sera une sauvegarde normale au cas où.
+  - Renomme tes sauvegardes 'modifiée' et 'normale'.
 
-### 1. Before doing anything, you must download the required apps on a Windows 10 computer:
-  - Download iBackupBot app on a Windows 10 computer
-  - Download Apple iTunes app on the Win 10 PC (allows the computer to access iPad files)
-  - Connect iPad to the computer using a lightning to USB cable.
-  - Press “Yes” on iPad when it asks if you want to trust the computer
-  - Go to Display & Brightness in settings, set screen timeout to never 
-  - Remove iPad password if needed
-### 2. Then, backup all files on the iPad just in case anything goes wrong.
-  - Make two backups
-  - One backup will be modified
-  - The other backup will be a normal backup just in case
-  - Rename the backups accordingly
-### 3. This is the main part where we modify the configuration profiles on the mobile device. 
-  - Open the modified backup in iBackupBot desktop application
-  - Search up “config” in main directory
-  - Click on “ConfigurationProfiles" file folder
-  - Remove the profiles that contain any restriction commands:
-    - Warning - ONLY delete the files that restrict the device from downloading or connecting to any apps or VPNs, and nothing else.
-    - A profile that restricts VPNs will have a list of VPN networks and their addresses (e.g.: "hotspotshield.com"). Delete this file.
-    - A profile that restricts any apps from being downloaded from the App Store will contain any code that prevents downloads (these files are easily distinguishable from others)
-    - On my iPad, I needed to remove the files that started with these characters (this may be different for every organization, but I am documenting it here:
-      - vpn profile: 8eab4842..
-      - restrictions 1: 973342024b65ca..
-      - restrictions 2: b8cec5a9..
-### 4. Now, we will load the modified backup file (without restrictions) onto the school iPad 
-  - Select entire directory of modified backup
-  - Press load backup button at top of screen
-  - Wait for the backup to load onto the iPad
-  - iPad will restart and load - this will take some time
-### 5. Download apps onto iPad
-  - Connect to an internet connected WiFi network on the iPad
-  - Create a burner email account with any service (usually gmail is preferred)
-  - Go to appleid.apple.com
-  - Create Apple ID using the gmail account
-  - Log into Apple ID on the iPad’s app store
-  - Now you can download any apps onto the school iPad.
-### 6. Verify full system functionality
-  - Run all apps and make sure they work.
+### 3. Maintenant, passons à la partie principale où nous allons modifier les profils de configuration sur ton appareil :
+  - Ouvre la sauvegarde modifiée dans l'application iBackupBot sur ton ordinateur.
+  - Dans le répertoire principal, recherche le terme "config".
+  - Clique sur le dossier "ConfigurationProfiles".
+  - Supprime les profils qui contiennent des commandes de restriction :
+    - Attention : SUPPRIME UNIQUEMENT les fichiers qui empêchent ton appareil de télécharger ou de se connecter à des applications ou des VPN, et rien d'autre.
+    - Un profil qui restreint les VPN contiendra une liste de réseaux VPN et de leurs adresses (par exemple : "hotspotshield.com"). Supprime ce fichier.
+    - Un profil qui empêche le téléchargement d'applications depuis l'App Store contiendra du code qui bloque les téléchargements (ces fichiers sont facilement reconnaissables).
+    - Exemple :
+      - Profil VPN : 8eab4842..
+      - Restrictions 1 : 973342024b65ca..
+      - Restrictions 2 : b8cec5a9..
+
+### 4. Maintenant, charge la sauvegarde modifiée (sans restrictions) sur ton iPad scolaire :
+  - Sélectionne tout le répertoire de la sauvegarde modifiée.
+  - Clique sur le bouton de chargement de la sauvegarde en haut de l'écran.
+  - Attends que la sauvegarde se charge sur ton iPad.
+  - Ton iPad redémarrera et se chargera, cela prendra un certain temps.
+
+### 5. Vérifie que tout fonctionne correctement :
+  - Lance des applications et assure-toi qu'elles fonctionnent.
